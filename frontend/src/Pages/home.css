@@ -49,38 +49,55 @@
   }
   
   .busSign{
-    width: 45px;
+    width: 100px;
   }
   /* home.css */
 
+/* Button styling */
+button {
+  background-color: #FE7318; /* Green background */
+  border: none;
+  color: white; /* White text */
+  padding: 10px 20px; /* Padding inside the button */
+  text-align: center; /* Center text */
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px; /* Font size */
+  margin: 10px 2px; /* Space around the button */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 15px; /* Rounded corners */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition */
+}
+
+/* Hover effect for the button */
+button:hover {
+  background-color: #45a049; /* Darker green */
+  transform: scale(1.05); /* Slightly enlarge the button */
+}
+
+/* Container for the button contents */
 .homeBtn {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    background-color: #007BFF; /* Button background color */
-    color: white; /* Text color */
-    font-size: 16px;
-    font-weight: bold;
-    padding: 12px 20px; /* Padding for the button */
-    border: none; /* Remove default border */
-    border-radius: 8px; /* Rounded corners */
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-  }
-  
-  .HomeButton:hover {
-    background-color: #0056b3; /* Darker shade on hover */
-    transform: scale(1.05); /* Slightly larger on hover */
-  }
-  
-  .HomeButton:active {
-    background-color: #004080; /* Even darker shade when clicked */
-    transform: scale(0.98); /* Slightly smaller when clicked */
-  }
-  
-  .HomeButton .busSign {
-    width: 24px; /* Adjust the width of the image */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Space between the image and the text */
-  }
-  
+  display: flex; /* Flexbox layout for alignment */
+  align-items: center; /* Center items vertically */
+  justify-content: center; /* Center items horizontally */
+}
+
+/* Styling for the image container */
+.homeBtn1 {
+  margin-right: 5%; /* Space between the image and text */
+  display: flex;
+  align-items: center; /* Center the image vertically */
+}
+
+/* Styling for the image */
+.homeBtn1 img {
+  width: 24px; /* Width of the image */
+  height: 24px; /* Height of the image */
+}
+
+/* Styling for the text */
+.homeBtn2 {
+  font-size: 18px; /* Font size of the text */
+  font-weight: bold; /* Bold text */
+  color: white; /* White text color */
+}
