@@ -1,0 +1,36 @@
+/* home.css */
+.home {
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .homeContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .homeClass {
+    margin-bottom: 20px;
+  }
+  
+  .homeImg {
+    width: 550px;
+    height: auto;
+  }
+  
+  .homeText h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .homeText p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 600px;
+  }
+  

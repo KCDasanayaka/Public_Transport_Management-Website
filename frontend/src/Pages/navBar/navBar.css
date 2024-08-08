@@ -1,0 +1,39 @@
+/* navBar.css */
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 35px;
+    height: 60px;
+  }
+  
+  .Navimg {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logoImg {
+    width: 250px;
+    height: auto;
+  }
+  
+  .loginBtn button {
+    background-color: #FE7318;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .loginBtn button:hover {
+    background-color: #0056b3;
+  }
+  
+  .btnText {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  

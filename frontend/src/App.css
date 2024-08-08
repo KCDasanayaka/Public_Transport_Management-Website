@@ -1,8 +1,8 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  font-family: "PT Sans", sans-serif;
+  width: 1920px;
+  height: 1080px;
+  background-color: white;
 }
 
 .logo {
