@@ -9,7 +9,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 50px;
     text-align: center;
   }
   
@@ -18,19 +18,69 @@
   }
   
   .homeImg {
-    width: 550px;
+    width: 650px;
     height: auto;
   }
   
   .homeText h1 {
-    font-size: 2.5em;
+    font-size: 8em;
+    text-transform: uppercase;
     margin-bottom: 10px;
-    color: #333;
+    color: #000000;
+    margin: auto;
   }
   
-  .homeText p {
-    font-size: 1.2em;
-    color: #666;
+  .homeText h4 {
+    text-transform:capitalize;
+    font-size: 1.7em;
+    color: #000000;
     max-width: 600px;
+    margin: auto;
+    line-height: 30px;
+  }
+  .homeText p{
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    text-align: justify;
+    color: #000000;
+    max-width: 600px;
+    margin: auto;
+    line-height: 30px;
+  }
+  
+  .busSign{
+    width: 45px;
+  }
+  /* home.css */
+
+.HomeButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #007BFF; /* Button background color */
+    color: white; /* Text color */
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 20px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 8px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .HomeButton:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05); /* Slightly larger on hover */
+  }
+  
+  .HomeButton:active {
+    background-color: #004080; /* Even darker shade when clicked */
+    transform: scale(0.98); /* Slightly smaller when clicked */
+  }
+  
+  .HomeButton .busSign {
+    width: 24px; /* Adjust the width of the image */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the image and the text */
   }
   
