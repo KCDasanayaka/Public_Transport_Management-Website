@@ -15,13 +15,16 @@ function Home ()  {
         <div className='homeText'>
           <h1>Welcome</h1>
           <h4>to Sri Lanka's Premier Long-Distance Bus Service Booking Platform!</h4>
-          <br/><br/><br/>
+          <br/><br/>
           <p>
           Embark on a journey of comfort and convenience with our seamless online booking system. Whether you're planning a coastal adventure, a cultural exploration, or simply visiting loved ones, we are here to make your travels effortless and enjoyable.
           </p>
-          <button className='HomeButton'>
-            <img src={BusSign} alt='' className='busSign'/>
-            Select bus type
+          <button>
+            <div className="homeBtn">
+             <div className="homeBtn1" style={{marginRight:'5%'}}><img src={BusSign} alt='' className='busSign' /></div>
+              <div className="homeBtn2">Select bus type</div> 
+            </div>
+            
           </button>
         </div>
       </div>

@@ -18,7 +18,7 @@
   }
   
   .homeImg {
-    width: 650px;
+    width: 550px;
     height: auto;
   }
   
@@ -53,10 +53,10 @@
   }
   /* home.css */
 
-.HomeButton {
+.homeBtn {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
     background-color: #007BFF; /* Button background color */
     color: white; /* Text color */
     font-size: 16px;
