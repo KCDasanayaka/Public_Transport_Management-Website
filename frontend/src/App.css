@@ -1,8 +1,9 @@
 #root {
   font-family: "Poppins", sans-serif;
   width: 1920px;
-  height: 1080px;
-  background-color: white;
+  min-width: fit-content;
+  height: fit-content;
+  background-color: rgb(0, 0, 0);
 }
 
 .logo {

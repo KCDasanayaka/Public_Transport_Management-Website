@@ -1,10 +1,15 @@
 import React from 'react';
 import "./home.css";
+import { useNavigate } from 'react-router-dom';
 import homeImg from "../assets/HomeIcon.png";
 import NavBar from './navBar/NavBar';
 import BusSign from '../assets/bus.png'
 
 function Home ()  {
+  const navigate=useNavigate();
+  const handleRegister=()=>{
+    navigate("/Pages/HomeRegister");
+  }
   return (
     <div className='home'>
       <NavBar/>
@@ -19,10 +24,10 @@ function Home ()  {
           <p>
           Embark on a journey of comfort and convenience with our seamless online booking system. Whether you're planning a coastal adventure, a cultural exploration, or simply visiting loved ones, we are here to make your travels effortless and enjoyable.
           </p>
-          <button>
+          <button onClick={handleRegister}>
             <div className="homeBtn">
              <div className="homeBtn1" style={{marginRight:'5%'}}><img src={BusSign} alt='' className='busSign' /></div>
-              <div className="homeBtn2">Select bus type</div> 
+              <div className="homeBtn2" >Select bus type</div> 
             </div>
             
           </button>

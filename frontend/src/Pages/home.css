@@ -1,7 +1,8 @@
 /* home.css */
 .home {
     min-height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #000000;
+    color: #ffffff;
   }
   
   .homeContent {
@@ -9,7 +10,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 70px;
     text-align: center;
   }
   
@@ -26,23 +27,25 @@
     font-size: 8em;
     text-transform: uppercase;
     margin-bottom: 10px;
-    color: #000000;
+    color: #ffffff;
     margin: auto;
   }
   
   .homeText h4 {
     text-transform:capitalize;
-    font-size: 1.7em;
-    color: #000000;
+    font-size: 1.8em;
+    color: transparent;
     max-width: 600px;
     margin: auto;
+    letter-spacing: 1px;
     line-height: 30px;
+    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
   }
   .homeText p{
     font-family: "Poppins", sans-serif;
     font-size: 1.5em;
     text-align: justify;
-    color: #000000;
+    color: #ffffff;
     max-width: 600px;
     margin: auto;
     line-height: 30px;
@@ -58,7 +61,7 @@ button {
   background-color: #FE7318; /* Green background */
   border: none;
   color: white; /* White text */
-  padding: 10px 20px; /* Padding inside the button */
+  padding: 10px 10px; /* Padding inside the button */
   text-align: center; /* Center text */
   text-decoration: none;
   display: inline-block;
@@ -71,15 +74,18 @@ button {
 
 /* Hover effect for the button */
 button:hover {
-  background-color: #45a049; /* Darker green */
-  transform: scale(1.05); /* Slightly enlarge the button */
+  background-color: #ffffff; /* Darker green */
+  color: #000000;
+  transform: scale(1.05);
+  border: 1px solid black; /* Slightly enlarge the button */
 }
 
 /* Container for the button contents */
 .homeBtn {
   display: flex; /* Flexbox layout for alignment */
   align-items: center; /* Center items vertically */
-  justify-content: center; /* Center items horizontally */
+  justify-content: center;
+  width: 200px; /* Center items horizontally */
 }
 
 /* Styling for the image container */
@@ -91,13 +97,19 @@ button:hover {
 
 /* Styling for the image */
 .homeBtn1 img {
-  width: 24px; /* Width of the image */
-  height: 24px; /* Height of the image */
+  width: 30px; /* Width of the image */
+  height: 30px; /* Height of the image */
 }
 
 /* Styling for the text */
 .homeBtn2 {
-  font-size: 18px; /* Font size of the text */
-  font-weight: bold; /* Bold text */
-  color: white; /* White text color */
+  font-size: 20px; 
+  font-weight: 600;
+  line-height: 20px;
+  text-transform: lowercase;
+   /* White text color */
+}
+.homeBtn2:hover{
+  color: #000000;
+
 }
