@@ -15,26 +15,28 @@ function Home ()  {
         <div className='homeRegText'>
             <div className="homeRegleft">
                <div className="regLeft1"><h1>Register Now:</h1></div>
-                <h4> Passengers, Managers, and Buses</h4>
-                <br/><br/>
-                <p>
-                Embark on a journey of comfort and convenience with our seamless online booking system. Whether you're planning a coastal adventure, a cultural exploration, or simply visiting loved ones, we are here to make your travels effortless and enjoyable.
-                </p> 
+                <h4> Passengers, Managers, and Buses</h4> 
             </div>
           
         <div className="homeRegButton">
-            <p>select your role</p>
+            <p style={{fontSize:'30px',margin:'auto'}}>Select Your Role</p>
             <div className="homeRegBtn01">
                 <div className="homeRegBtn02">
                     <button>
-                        <div className="homeBtn1" style={{marginRight:'5%'}}><img src={BusSign} alt='' className='busSign' /></div>
-                        <div className="homeBtn2" >Select bus type</div> 
+                        <div className='homeBtn'>
+                            <div className="homeBtn1" style={{marginRight:'5%'}}><img src={BusSign} alt='' className='busSign' /></div>
+                            <div className="homeBtn3" >Normal User & Bus Stand Keeper</div> 
+                        </div>
+                        
                     </button>
                 </div>
                 <div className="homeRegBtn02">
                     <button>
+                    <div className='homeBtn'>
                         <div className="homeBtn1" style={{marginRight:'5%'}}><img src={BusSign} alt='' className='busSign' /></div>
-                        <div className="homeBtn2" >Select bus type</div> 
+                        <div className="homeBtn3" >Bus Registration</div> 
+                    </div>
+                        
                     </button>
                 </div>
             </div>

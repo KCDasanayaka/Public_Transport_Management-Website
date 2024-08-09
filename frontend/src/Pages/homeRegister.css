@@ -1,5 +1,5 @@
 .homeRegText h1 {
-    font-size: 7em;
+    font-size: 6em;
     text-align: left;
     text-transform: uppercase;
     color: #ffffff;
@@ -24,4 +24,29 @@
   .homeRegleft{
     display: flex;
     flex-direction: column;
+  }
+  .homeRegButton{
+    border: 2px solid white;
+    border-radius: 25px;
+    margin-top: 5%;
+    text-align: left;
+    padding: 10px 50px;
+    width: 70%;
+  }
+  .homeRegBtn01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .homeBtn3 {
+    font-size: 15px; 
+    text-align: left;
+    font-weight: 500;
+    line-height: 17px;
+    font-family: "Poppins", sans-serif;
+     /* White text color */
+  }
+  .homeBtn3:hover{
+    color: #000000;
+  
   }
