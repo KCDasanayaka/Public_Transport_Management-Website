@@ -1,7 +1,12 @@
 import logoImg from '../../assets/BusLogo.png';
 import './navBar.css';
+import { useNavigate } from 'react-router-dom';
 
 function NavBar() {
+  const navigate=useNavigate();
+  const handleLogin=()=>{
+    navigate('../Pages/Login');
+  }
   return (
     <nav className='navBar'>
       <div className='Navimg'>
@@ -17,7 +22,7 @@ function NavBar() {
         </li>
         <li>
           <div className='loginBtn'>
-            <button>
+            <button onClick={handleLogin}>
               <p className='btnText'>Join</p>
             </button>
           </div>
