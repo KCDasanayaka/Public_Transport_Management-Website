@@ -17,7 +17,7 @@ return (
                 <img src={loginImg} alt='' className='loginImg'/>
             </div>
             <div className="loginRight">
-                <h1>welcome <br/><span>back</span></h1>
+                <h1 className='loginRighttop'>welcome <br/><span>back</span></h1>
                 <div className="loginForm">
                 <div className="loginForm">
                         <div className="signPassword">

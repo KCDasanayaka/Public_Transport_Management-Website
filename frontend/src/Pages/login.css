@@ -4,6 +4,8 @@
 .loginContent{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin: 5% 5%;
 }
 .loginCenter {
     text-align: center;
@@ -17,16 +19,19 @@
   
   .loginForm {
     background-color: white;
-    padding: 20px;
     border-radius: 8px;
     max-width: 400px;
     width: 100%;
-    margin: 0 auto;
+    margin: 0 ;
   }
   
+  .loginForm label{
+    color: #000000;
+  }
   .loginFormLabel {
     margin-bottom: 15px;
     text-align: left;
+    
   }
   
   .loginFormLabel label {
@@ -87,4 +92,18 @@
   }
   .loginImg img{
     border-radius: 15px;
+  }
+  .loginRight{
+    padding-top: 2%;
+    margin-left: 5%;
+  }
+  .loginRighttop{
+    font-size: 80px;
+    margin: 0;
+    line-height: 50px;
+    text-transform: uppercase;
+  }
+  .loginRighttop span{
+    font-size: 40px;
+    text-transform: lowercase;
   }

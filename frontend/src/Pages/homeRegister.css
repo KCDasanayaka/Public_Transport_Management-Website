@@ -2,7 +2,7 @@
     font-size: 6em;
     text-align: left;
     text-transform: uppercase;
-    color: #ffffff;
+    color: #000000;
     margin: 0;
     line-height: 90px;
   }
@@ -19,14 +19,14 @@
     margin: 0;
     letter-spacing: 1.0px;
     line-height: 30px;
-    -webkit-text-stroke: 0.5px rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 0, 0);
   }
   .homeRegleft{
     display: flex;
     flex-direction: column;
   }
   .homeRegButton{
-    border: 2px solid white;
+    border: 2px solid rgb(0, 0, 0);
     border-radius: 25px;
     margin-top: 5%;
     text-align: left;
