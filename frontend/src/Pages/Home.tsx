@@ -2,6 +2,7 @@ import React from 'react';
 import "./home.css";
 import { useNavigate } from 'react-router-dom';
 import homeImg from "../assets/HomeIcon.png";
+import homeImg01 from "../assets/stbBus02.png";
 import NavBar from './navBar/NavBar';
 import BusSign from '../assets/bus.png'
 
@@ -15,7 +16,7 @@ function Home ()  {
       <NavBar/>
       <div className='homeContent'>
         <div className="homeClass">
-          <img src={homeImg} alt='' className='homeImg'/>  
+          <img src={homeImg01} alt='' className='homeImg'/>  
         </div>
         <div className='homeText'>
           <h1>Welcome</h1>
