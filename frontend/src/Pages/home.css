@@ -15,12 +15,14 @@
   
   .homeClass {
     margin-bottom: 20px;
+    margin-right: 5%;
   }
   
   .homeImg {
-    width: 650px;
+    width: 550px;
     height: auto;
     margin-left: 5%;
+    border-radius: 50px;
   }
   
   .homeText h1 {
@@ -109,9 +111,9 @@ button:hover {
 /* Styling for the text */
 .homeBtn2 {
   font-size: 20px; 
-  font-weight: 600;
+  font-weight: 500;
   line-height: 20px;
-  text-align: left;
+  text-align: center;
   font-family: "Poppins", sans-serif;
    /* White text color */
 }
