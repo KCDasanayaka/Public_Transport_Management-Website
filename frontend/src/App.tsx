@@ -3,6 +3,7 @@ import './App.css';
 import Home from './Pages/Home';
 import HomeRegister from './Pages/HomeRegister';
 import Login from './Pages/Login';
+import TypeSelection from './Pages/TypeSelection';
 
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
         <Route path="/Pages/Home" element={<Home/>} />
         <Route path='/Pages/HomeRegister' element={<HomeRegister/>}/>
         <Route path='/Pages/Login' element={<Login/>}/>
+        <Route path='/Pages/TypeSelection' element={<TypeSelection/>}/>
       </Routes>
     </Router>
   );
