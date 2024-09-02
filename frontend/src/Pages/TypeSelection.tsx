@@ -1,6 +1,7 @@
 import React from 'react';
-import "./homeRegister.css";
+import "./typeSeection.css";
 import homeImg from "../assets/HomeImg.png";
+import logoImg from '../assets/Bus icon.png';
 import NavBar from './navBar/NavBar';
 import BusSign from '../assets/bus.png'
 
@@ -9,24 +10,24 @@ function Home ()  {
     <div className='home'>
       <NavBar/>
       <div className='homeContent'>
-        <div className="homeClass">
-          <img src={homeImg} alt='' className='homeImg'/>  
-        </div>
+        
         <div className='homeRegText'>
-            <div className="homeRegleft">
-               <div className="regLeft1"><h1>Register Now:</h1></div>
-                <h4> Passengers, Managers, and Buses</h4> 
+            <div className="regLeftlogo">
+                <img src={logoImg} alt='Company Logo' className='logoImg' />
+                <div className="homeRegleft">
+                  <div className="regLeft1"><h1>Select<br/>
+                  <span style={{textTransform:'capitalize'}}>Bus Type</span></h1></div>
+                    <h4> Passengers, Managers, and Buses</h4> 
+                </div>
             </div>
+            
           
         <div className="homeRegButton">
             <p style={{fontSize:'30px',margin:'auto',color:'black'}}>Select Your Role</p>
             <div className="homeRegBtn01">
                 <div className="homeRegBtn02">
                     <button>
-                        <div className='homeBtn'>
-                            <div className="homeBtn1" style={{marginRight:'5%'}}><img src={BusSign} alt='' className='busSign' /></div>
-                            <div className="homeBtn3" >Normal User & Bus Stand Keeper</div> 
-                        </div>
+                        
                         
                     </button>
                 </div>
@@ -41,6 +42,9 @@ function Home ()  {
                 </div>
             </div>
         </div>
+        </div>
+        <div className="homeClass">
+          <img src={homeImg} alt='' className='homeImg'/>  
         </div>
       </div>
       

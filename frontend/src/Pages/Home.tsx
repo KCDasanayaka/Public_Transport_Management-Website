@@ -9,7 +9,7 @@ import BusSign from '../assets/bus.png'
 function Home ()  {
   const navigate=useNavigate();
   const handleRegister=()=>{
-    navigate("/Pages/HomeRegister");
+    navigate("/Pages/TypeSelection");
   }
   return (
     <div className='home'>

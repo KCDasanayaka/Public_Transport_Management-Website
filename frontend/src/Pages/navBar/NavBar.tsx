@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 function NavBar() {
   const navigate=useNavigate();
   const handleLogin=()=>{
-    navigate('../Pages/Login');
+    navigate('../Pages/HomeRegister');
   }
   return (
     <nav className='navBar'>

@@ -115,6 +115,7 @@ button:hover {
   line-height: 20px;
   text-align: center;
   font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
    /* White text color */
 }
 .homeBtn2:hover{
